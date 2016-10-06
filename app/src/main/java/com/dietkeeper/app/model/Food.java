@@ -1,0 +1,79 @@
+package com.dietkeeper.app.model;
+
+/**
+ * Created by Elrol on 2016/10/6.
+ */
+public class Food {
+    private int id;
+    private String foodName;
+    private int foodCalories;
+    private int protein;
+    private int fat;
+    private int carbohydrate;
+    private int traceElements;
+    private String[] foodAvoid;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getFoodName() {
+        return foodName;
+    }
+
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
+    }
+
+    public int getFoodCalories() {
+        return foodCalories;
+    }
+
+    public void setFoodCalories(int foodCalories) {
+        this.foodCalories = foodCalories;
+    }
+
+    public int getProtein() {
+        return protein;
+    }
+
+    public void setProtein(int protein) {
+        this.protein = protein;
+    }
+
+    public int getFat() {
+        return fat;
+    }
+
+    public void setFat(int fat) {
+        this.fat = fat;
+    }
+
+    public int getCarbohydrate() {
+        return carbohydrate;
+    }
+
+    public void setCarbohydrate(int carbohydrate) {
+        this.carbohydrate = carbohydrate;
+    }
+
+    public int getTraceElements() {
+        return traceElements;
+    }
+
+    public void setTraceElements(int traceElements) {
+        this.traceElements = traceElements;
+    }
+
+    public String[] getFoodAvoid() {
+        return foodAvoid;
+    }
+
+    public void setFoodAvoid(String[] foodAvoid) {
+        this.foodAvoid = foodAvoid;
+    }
+}
