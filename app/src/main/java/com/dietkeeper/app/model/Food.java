@@ -11,7 +11,7 @@ public class Food {
     private int fat;
     private int carbohydrate;
     private int traceElements;
-    private String[] foodAvoid;
+    private Food[] foodAvoid;
 
     public int getId() {
         return id;
@@ -69,11 +69,11 @@ public class Food {
         this.traceElements = traceElements;
     }
 
-    public String[] getFoodAvoid() {
+    public Food[] getFoodAvoid() {
         return foodAvoid;
     }
 
-    public void setFoodAvoid(String[] foodAvoid) {
+    public void setFoodAvoid(Food[] foodAvoid) {
         this.foodAvoid = foodAvoid;
     }
 }
