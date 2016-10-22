@@ -13,6 +13,17 @@ public class Food {
     private int traceElements;
     private Food[] foodAvoid;
 
+    public Food( int id,String foodName,int foodCalories, int protein, int fat,int carbohydrate,  int traceElements) {
+        this.carbohydrate = carbohydrate;
+        this.id = id;
+        this.foodName = foodName;
+        this.foodCalories = foodCalories;
+        this.protein = protein;
+        this.fat = fat;
+        this.traceElements = traceElements;
+
+    }
+
     public int getId() {
         return id;
     }
